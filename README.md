@@ -4,9 +4,18 @@
 
 Make sure you have **Python 3.9+** installed.
 
+2. Activate the virtual environment
+
+python -m venv venv
+
+
+venv\Scripts\activate
+
+3. Install the dependencies
+
 pip install -r requirements.txt
 
-2. Start the Server
+4. Start the Server
 
 Run the FastAPI application with uvicorn:
 
