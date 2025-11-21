@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 Run the FastAPI application with uvicorn:
 
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 
 Your server will run at:
 
